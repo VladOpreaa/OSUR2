@@ -1,0 +1,153 @@
+/* General */
+body {
+    background-color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900!important;
+    text-transform: uppercase;
+  }
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800!important;
+    text-transform: uppercase;
+ }
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700!important;
+    text-transform: uppercase;
+ } 
+
+
+
+/* Nav */
+.logo{
+width: 150px;}
+
+.nav-link{
+    color: white !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+.navbar li {
+    margin: 0 0 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .navbar li a {
+    border-bottom: 1px solid #1E1E1E;
+  }
+
+  .navbar li a:hover {
+      text-decoration: none;
+      border-bottom: 1px solid white;
+      color: white;
+  }
+
+
+/* BC */
+
+.card{
+  background-color: #e63946 !important;
+  margin-bottom: 25px !important;
+  width: 18rem !important;
+  text-align: center;
+}
+
+.badge.rounded-pill.text-bg-primary {
+  text-align: center;
+  background-color: #1E1E1E !important;
+  text-transform: uppercase;
+}
+
+.badge {
+  display: inline;
+  --bs-badge-padding-x: 10px;
+  --bs-badge-padding-y: 5px;
+  --bs-badge-font-size: 0.80em;
+}
+
+/* ID */
+
+#despre-noi{
+    margin-top: 6% !important;
+    margin-bottom: 6% !important;
+}
+
+/* Proiecte */
+.accordion-button {
+  text-transform: uppercase;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000000 !important;
+  background-color: #c506062e !important;
+  font-weight: 800 !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #e63946 !important;
+}
+
+/* Footer */
+
+.container-fluid.footer {
+  background-color: #e63946 !important;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.container-fluid.footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.container-fluid.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container-fluid.footer a:hover {
+  color: #ff0000;
+}
+
+.copyrights {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.row.col-f {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.fa-facebook:hover {
+  color: #ffffff !important;
+}
+
+.fa-instagram:hover {
+  color: #ffffff !important;
+}
+
+.fa-twitter:hover {
+  color: #ffffff !important;
+}
+
+.fa-linkedin:hover {
+  color: #ffffff !important;
+}
